@@ -67,6 +67,23 @@ This gives a practical uncertainty range around the forecasted order values.
 
 Feature importance and SHAP values were used to interpret the model. The interpretation showed that calendar-related variables, especially the target day of week and weekend indicators, had a strong influence on the forecast. Historical order patterns such as lag and rolling features also contributed to the predictions.
 
+## Visual Results
+
+### Daily Orders Over Time
+![Daily Orders](figures/daily_orders.jpg)
+
+### 7-Day Backtest
+![7-Day Backtest](figures/backtest_7_days.jpg)
+
+### Forecast with Prediction Interval
+![Forecast with Prediction Interval](figures/forecast_7_days_prediction_interval.jpg)
+
+### SHAP Summary Plot
+![SHAP Summary Plot](figures/shap_summary_plot.jpg)
+
+### SHAP Feature Importance
+![SHAP Feature Importance](figures/shap_feature_importance_1_day.jpg)
+
 ## Repository Files
 
 - `orders_forecasting_xgboost.ipynb`: main notebook containing the full workflow
