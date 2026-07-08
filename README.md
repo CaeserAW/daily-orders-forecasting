@@ -1,6 +1,6 @@
 # Daily Orders Forecasting Using XGBoost
 
-This project forecasts daily orders for the next 7 days using historical order data for selected customer-lane combinations within a specific transport category. The original dataset contains two columns: the date and the number of orders. Although the dataset is simple, additional calendar, lag, rolling, trend, holiday, and cyclical features were engineered to improve forecasting performance.
+This project forecasts daily orders for the next 7 days using dummy order data inspired by logistics operations. The dataset is designed to represent selected customer-lane combinations within a transport category. The original dataset contains two columns: the date and the number of orders. Although the dataset is simple, additional calendar, lag, rolling, trend, holiday, and cyclical features were engineered to improve forecasting performance.
 
 The objective is to build a short-term forecasting model that can help estimate expected order volume and support planning for staffing, inventory, and daily operations.
 
